@@ -81,8 +81,8 @@ body{
 }
 
 .logo--smartgarden{
-    /* width: 70vw; */
-    height: 5vh;
+    width: 70vw;
+    /* height: 5vh; */
     filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 4px 12px);
 }
 
@@ -100,8 +100,7 @@ body{
     padding-top: 1.25vh;
     padding-bottom: 1.25vh;
     font-size: 1.25rem;
-    /* width: 50vw; */
-    width: 30vh;
+    width: 45vw;
     border: 1.5px solid var(--white);
     border-radius: 40px;
     cursor: pointer;
@@ -117,3 +116,15 @@ body{
     opacity: 0.5;
 }
 
+@media (min-width: 1200px) {
+    .logo--smartgarden{
+        width: 35vw;
+    }
+    .button__container{
+        gap: 1rem;
+    }
+    .button {
+        font-size: 1rem;
+        width: 20vw;
+    }
+}
