@@ -76,7 +76,7 @@ body{
 .logo__container {
     display: flex;
     position: absolute;
-    top: 1.5%;
+    top: 3vh;
     left: 0%;
     right: 0%;
     flex-direction: row;
@@ -86,7 +86,8 @@ body{
 }
 
 .logo--smartgarden{
-    width: 38vw;
+    /* width: 45vw; */
+    height: 3.5vh;
     filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 4px 12px);
 }
 
@@ -94,11 +95,11 @@ body{
     position: absolute;
     top: auto;
     bottom: auto;
-    left: 2%;
+    left: 3vh;
     cursor: pointer;
 }
 
 .direct--button{
-    height: 2rem;
+    height: 3.5vh;
 }
 

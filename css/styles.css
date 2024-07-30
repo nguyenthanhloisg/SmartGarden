@@ -81,7 +81,8 @@ body{
 }
 
 .logo--smartgarden{
-    width: 70vw;
+    /* width: 70vw; */
+    height: 5vh;
     filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 4px 12px);
 }
 
@@ -95,9 +96,12 @@ body{
 }
 
 .button {
-    padding: 1.25rem 1.5rem;
+    /* padding: 1.25rem 1.5rem; */
+    padding-top: 1.25vh;
+    padding-bottom: 1.25vh;
     font-size: 1.25rem;
-    width: 50vw;
+    /* width: 50vw; */
+    width: 30vh;
     border: 1.5px solid var(--white);
     border-radius: 40px;
     cursor: pointer;
