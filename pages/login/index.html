@@ -3,10 +3,12 @@
 <html>
     <head>
         <title>Smart Garden</title>
-        <link rel="icon" type="image/png" href="./image/logo-title.png" />
+        <link rel="icon" type="image/png" href="../../image/logo-title.png" />
 
         <link href="../../css/login-styles.css" rel="stylesheet" type="text/css" />
         <script src="../../js/login-scripts.js"></script>
+        <!-- google font link icon -->
+        
     </head>
 
     <body>
@@ -20,7 +22,31 @@
                 </div>
             </div>
             
-            
+            <div class="signin__container">
+                <h2 class="form-title">Đăng nhập</h2>
+                <form action="#" class="login-form">
+                    <div class="input-box">
+                        <input type="email" placeholder="Email" class="input-field">
+                        <img src="../../image/icon-mail.svg" alt="icon-mail">
+                    </div>
+
+                    <div class="input-box">
+                        <input type="password" placeholder="Mật khẩu" class="input-field">
+                        <img src="../../image/icon-lock.svg" alt="icon-lock">
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label for="remember"><input type="checkbox" id="remember"> Lưu mật khẩu</label>
+                        <a href="#">Quên mật khẩu?</a>
+                    </div>
+                    <div class="button-container">
+                        <button type="submit" class="login-button">Đăng nhập</button>
+                    </div>
+                    <div class="register-link">
+                        Bạn chưa có tài khoản?<a href="#">Đăng ký</a>
+                    </div>
+                </form>
+            </div>
         </div>
     </body>
 </html>
