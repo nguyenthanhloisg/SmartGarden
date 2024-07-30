@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Medium.woff2') format('woff2'),
+        url('../fonts/Inter-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Light.woff2') format('woff2'),
+        url('../fonts/Inter-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+        url('../fonts/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('../fonts/Inter-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --black: #333;
+    --white: #fefefe;
+    --yellow: #ffae00;
+    --green: #72bf6a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: var(--black);
+    font-family: 'Inter', 'sans-serif';
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+body{
+    display: flex;
+    overflow: hidden; /* Đảm bảo không có thanh cuộn */
+    background-image: url('../image/smart-garden-background.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+.logo__container {
+    position: absolute;
+    top: 15%;
+}
+
+.logo--smartgarden{
+    width: 50vw;
+}
+
+.button__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    position: absolute;
+    bottom: 15%;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    width: 50vw;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    color: var(--white);
+}
+.button:hover {
+    background-color: var(--green);
+}
+
+.button:active {
+    opacity: 0.5;
+}
