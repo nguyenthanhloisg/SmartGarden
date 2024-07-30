@@ -50,7 +50,7 @@
     margin: 0;
     color: var(--black);
     font-family: 'Inter', 'sans-serif';
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 500;
     line-height: 1.5rem;
 }
@@ -58,7 +58,7 @@
 body{
     display: flex;
     overflow: hidden; /* Đảm bảo không có thanh cuộn */
-    background-image: url('../image/smart-garden-background.jpg');
+    background-image: url('../image/background-smart-garden.jpg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -77,28 +77,29 @@ body{
 
 .logo__container {
     position: absolute;
-    top: 15%;
+    top: 25%;
 }
 
 .logo--smartgarden{
-    width: 50vw;
+    width: 70vw;
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 4px 12px);
 }
 
 .button__container {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    gap: 1rem;
+    gap: 1.5rem;
     position: absolute;
     bottom: 15%;
 }
 
 .button {
-    padding: 10px 20px;
-    font-size: 1rem;
+    padding: 1.25rem 1.5rem;
+    font-size: 1.25rem;
     width: 50vw;
-    border: 1px solid var(--white);
-    border-radius: 20px;
+    border: 1.5px solid var(--white);
+    border-radius: 40px;
     cursor: pointer;
     text-align: center;
     background-color: transparent;
